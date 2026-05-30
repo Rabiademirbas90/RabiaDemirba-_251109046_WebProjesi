@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giriş Yap / Kayıt Ol</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="r-butun-sayfa">
+
+        <nav class="r-ana-gezinme">
+               <div class="r-motivfit-logo "><img src="Resimler/logo.jpg" alt="resim yok"></div>
+            <ul class="r-menu-listesi">
+               <li><a href="/"><i class="fa-solid fa-house"></i>Ana Sayfa</a></li>
+               <li><a href="/egitimler"><i class="fa-solid fa-dumbbell"></i>Eğitimler</a></li>
+               <li><a href="/urunler"><i class="fa-solid fa-bag-shopping"></i>Ürünler Listesi</a></li>
+               <li><a href="/giris"><i class="fa-solid fa-user"></i>Giriş Yap / Kayıt Ol</a></li>
+               <li><a href="/iletisim"><i class="fa-solid fa-phone"></i>iletişim</a></li>
+            </ul>
+        </nav>
+
+
+        <div class="r-mot-giris">
+            <div class="r-sol-yazi">
+                <h1>MOTIVFIT'E HOŞ GELDİNİZ!</h1>
+                <p>Antrenman programlarına, sana özel spor listelerine ve indirimli ürün fırsatlarına ulaşmak için hemen hesabına giriş yap.</p>
+
+                <ul>
+                   <li>Kendi rekorlarını kır ve gelişimini adım adım takip et.</li>
+                   <li>Özel indirimlerden ilk sen haberdar ol.</li>
+                   <li>Eğitmenlerle anında iletişime geç.</li>
+                </ul>
+            </div>
+
+            <div class="r-sag-taraf-bicim">
+                <div class="r-urun-yazisi">
+                 <h4>GİRİŞ FORMU</h4></div>
+
+                <form class="r-motivfit-bicim" action="/giris" method="POST">
+                    <h2>Giriş Yap</h2><br>
+
+                    <label>E-Posta Adresiniz:</label><br>
+                    <input type="email" name="girisemail" required><br><br>
+
+                    <label>Şifreniz:</label><br>
+                    <input type="password" name="girissifre" required><br><br>
+
+                    <input type="submit" value="GİRİŞ YAP">
+                    <h2>Hâlâ MotivFit üyesi değil misiniz?</h2>
+                   <h4>Hemen aşağıdaki formu doldurarak aramıza katılın!</h4>
+                </form>
+                
+            </div></div>
+
+        <div class="r-mot-giris">
+             <div class="r-kayit-alani">
+
+                <div class="r-urun-yazisi">
+                 <h3>KAYIT FORMU</h3>
+                </div>
+
+              <h4>Hemen formu doldurarak aramıza katıl!</h4> 
+                <form class="r-motivfit-bicim" action="/kayit" method="POST">
+                    <h2>Kayıt Ol</h2><br>
+
+                    <label>Adınız Soyadınız:</label><br>
+                    <input type="text" name="kayitad" required><br><br>
+
+                    <label>E-Posta Adresiniz:</label><br>
+                    <input type="email" name="kayitemail" required><br><br>
+
+                    <label>Şifre Oluşturun:</label><br>
+                    <input type="password" name="kayitsifre" required><br><br>
+
+                    <input type="submit" value="HESAP OLUŞTUR">
+                </form>
+            </div>
+        </div>
+
+         <div class="r-kucuk-yazi">"© 2026 MotivFit Spor Salonu. Tüm Hakları Saklıdır.</div>
+    
+    </div>
+</body>
+</html>

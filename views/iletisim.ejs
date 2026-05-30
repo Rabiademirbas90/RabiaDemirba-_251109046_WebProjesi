@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İletişim</title>
+     <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="r-butun-sayfa">
+
+        <nav class="r-ana-gezinme">
+               <div class="r-motivfit-logo "><img src="Resimler/logo.jpg" alt="resim yok"></div>
+            <ul class="r-menu-listesi">
+               <li><a href="/"><i class="fa-solid fa-house"></i>Ana Sayfa</a></li>
+               <li><a href="/egitimler"><i class="fa-solid fa-dumbbell"></i>Eğitimler</a></li>
+               <li><a href="/urunler"><i class="fa-solid fa-bag-shopping"></i>Ürünler Listesi</a></li>
+               <li><a href="/giris"><i class="fa-solid fa-user"></i>Giriş Yap / Kayıt Ol</a></li>
+               <li><a href="/iletisim"><i class="fa-solid fa-phone"></i>iletişim</a></li>
+            </ul>
+        </nav>
+
+        <div class="r-urun-yazisi">
+            <h2>İLETİŞİM FORMU</h2>
+            </div>
+
+        <form class="r-motivfit-bicim">
+            <label>Adınız Soyadınız:</label><br>
+            <input type="text" name="adsoyad"><br><br>
+
+            <label>E-Posta Adresiniz:</label><br>
+            <input type="email" name="eposta"><br><br>
+
+            <label>İletişim Sebebi:</label><br>
+            <select name="konu">
+                <option></option>
+                <option value="protein">Protein Tozları</option>
+                <option value="icecek">Enerji İçecekleri</option>
+                <option value="giyim">Spor Kıyafetleri</option>
+                <option value="diger">Diğer</option>
+            </select><br><br>
+
+            <label>MotivFit Üyesi misiniz?</label><br>
+              <input type="radio" name="uyemi" value="evet"> Evet<br>
+              <input type="radio" name="uyemi" value="hayir"> Hayır<br><br>
+
+              <label>Mesajınız:</label><br>
+                  <textarea name="mesaj" rows="7" cols="30"></textarea><br><br>
+                  <input type="submit" value="Mesaji Gönder">
+        </form>
+
+           <div class="r-motivfit-bicim">
+               <h3>MotivFit İletişim Bilgileri</h3>
+               <p>Adres: MotivFit Plaza, Kat: 3, Levent / İstanbul</p>
+               <p>Telefon: 0212 555 00 11</p>
+               <p>E-posta: destek@motivfit.com</p>
+               <p>Çalışma Saatleri: Hafta içi: 07:00 - 23:00 / Hafta sonu: 09:00 - 21:00</p>
+           </div>
+
+           <div class="r-kucuk-yazi">"© 2026 MotivFit Spor Salonu. Tüm Hakları Saklıdır.</div>
+
+
+    </div>
+</body>
+</html>

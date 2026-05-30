@@ -1,0 +1,245 @@
+.r-butun-sayfa{
+    margin: auto;
+    padding: auto;
+    background-color: black;
+}
+.r-motivfit-logo img{
+    left: auto;
+    height: 110px;
+    width: 110px;
+}
+
+.r-ana-gezinme {
+    display: flex; /* Hocam burda flex kullandım Çünkü kutuların yan yana gelmesini istedim.*/
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+.r-menu-listesi {
+    display: flex;
+    list-style: none; /* Hocam burda list-style: none kullandım Çünkü menü yaparken önüne gelen yuvarlakları silmek istedim.*/
+    margin: 0 auto;
+}
+.r-menu-listesi li a {
+    display: block;
+    color: rgb(238, 6, 6);
+    padding: 15px 20px;
+    text-decoration: none; /* Hocam burda text-decoration: none kullandım Çünkü menünün altında ki mavi çizgiyi silmek istedim.*/
+    font-size: large;
+    font-family:'Times New Roman', Times, serif;
+}
+.r-kapak-resim{
+    position: relative; /* Hocam burda kodu kullandım Çünkü ana konumda kalmasını istedim.*/
+    width: 100%;
+    height: 570px;
+
+}
+.r-kapak-yazi{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Hocam bu kodu tam merkeze konumlandırmak için kullandım.*/
+    z-index: 5; /* Hocam bu kodu diğer kodların arkasında kaybolmasın öne çıksın diye kullandım.*/
+    font-weight: bold;
+    text-align: center;
+    color: rgba(224, 76, 76, 0.941);
+    background-color: rgba(0, 0, 0, 0.6); 
+    padding: 30px;
+    font-size: large;
+    border-radius: 10px;
+}
+.r-video-yazisi{
+    text-align: center;/* Hocam burda kodlar tam ortada olsun diye kullandım.*/
+    font-size: 25px;
+    color: rgb(164, 41, 41);
+}
+.r-tanitim-yazisi{
+    text-align: center;
+    margin-left: 10px;
+    font-size: 25px;
+    color: rgb(183, 180, 180);
+   
+}
+.r-kucuk-tanitim-yazisi{
+    text-align: center;
+    font-style: italic;
+    margin-left: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color: rgb(204, 68, 68);
+}
+
+.r-cubuk{
+    color: rgb(172, 0, 0);
+    font-size: 22px;
+}
+
+.r-konum-yazisi{
+    text-align: center;
+    margin-left: 10px;
+    font-size: 25px;
+    color: rgb(160, 94, 94);
+}
+.r-konum-tanitim-yazisi{
+    text-align: center;
+    margin-left: 10px;
+    font-size: 25px;
+    color: rgb(135, 135, 135);
+}
+.r-kucuk-konum-yazisi{
+    text-align: center;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 10px;
+    font-size: 20px;
+    color: rgb(165, 61, 61);
+
+}
+.r-kucuk-yazi{
+    text-align: center;
+    margin: 20px;
+    font-size: 20px;
+    font-style: italic;
+    color: rgb(186, 23, 23);
+}
+.r-kart-kapsayici{
+    justify-content: center;
+    display: flex;
+    padding: 20px;
+}
+.r-motive{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.r-motive-kartlar{
+    border: 4px solid;
+    border-color: rgb(168, 84, 84);
+    margin: 15px;
+    width: 280px;
+}
+.r-kart-yazisi{
+    text-align: center;
+    font-size: 15px;
+    width: 100%;
+    color: rgb(198, 38, 38);
+}
+.r-motive-urunler{
+    width: 170px;
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-bottom: 20px; /* Hocam burda bu kodu kullandım Çünkü yazılar arasında boşluk olsun istedim.*/
+    border: 4px solid;
+    border-color: rgb(168, 84, 84);
+    height: auto;
+}
+.r-urun-img{
+    width: 100%;
+}
+.r-urun-yazisi{
+    text-align: center;
+    font-size: 25px;
+    color: rgb(150, 76, 76);
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.r-urun2-yazisi{
+    text-align: center;
+    font-size: 20px;
+    color: rgb(205, 75, 75);
+    margin: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.r-motive-urunler2{
+    width: 300px;
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    border: 4px solid;
+    border-color: rgb(168, 84, 84);
+    height: auto;
+}
+.r-urun-liste-yazisi{
+    text-align: center;
+    font-style: italic;
+    font-weight: bold; /* Hocam burda bu kodu kullandım Çünkü yazının daha kalın ve görünür olmasını istedim.*/
+    font-size: 17px;
+    width: 100%;
+    color: rgb(227, 113, 113);
+}
+.r-tablo-kapsayici{
+    justify-content: center;
+    display: flex;
+    padding: 20px;
+}
+.r-motivfit-tablo{
+    width: 100%;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(100, 2, 2);
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+.r-motivfit-tablo thead tr{
+    background-color: rgb(35, 7, 7);
+    color: rgb(195, 116, 116);
+    font-weight: bold;
+    text-align: left;
+}
+.r-motivfit-tablo th, .r-motivfit-tablo td{
+    padding: 12px 15px;
+    border: 3px solid;
+    border-color: rgb(141, 49, 49);
+}
+.r-motivfit-tablo tbody tr:nth-child(even){
+    background-color:#5e5c5c;
+}
+.r-motivfit-tablo tbody tr:nth-child(odd){
+    background-color: #252424;
+}
+.r-stok-tukendi {
+    color: #ff0000;
+    font-weight: bold;
+}
+.r-motivfit-bicim{
+    background-color: #3d0f0f;
+    color: #979797;
+    padding: 20px;
+    font-weight: bold;
+    text-align: center;
+    border: 4px solid;
+    border-color: rgb(75, 74, 74);
+    width: 400px;
+    margin: 20px auto;
+}
+.r-mot-giris{
+    width: 1000px;
+    height: 500px; 
+    margin: 50px auto;
+}
+.r-sol-yazi{
+    float: left; /* Hocam burda float:left ve sola yaslandım Çünkü gelicek kutular sıralansın diye*/
+    width: 500px;
+    color: #b57575;
+    font-size: 20px;
+    font-weight: bold;
+}
+.r-sol-yazi h1{
+    color: #b01313;
+}
+.r-sol-yazi li {
+    margin-bottom: 10px;
+}
+.r-sag-taraf-bicim{
+    float: left;
+    width: 450px;
+    margin-left: 50px;
+}
+.r-kayit-alani{
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    color: #868585;
+}
